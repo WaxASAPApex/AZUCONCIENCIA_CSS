@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans:wght@600&family=Assistant&display=swap');
+
+body {
+    background-color: #E5F6FE;
+    font-family: 'Assistant', sans-serif; /* Usamos Assistant como la fuente predeterminada */
+    margin: 0;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #B8EBFF;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #89CFF1; /* Borde inferior */
+}
+
+    header img {
+        max-width: 150px;
+        display: block;
+        margin: 0 auto; /* Centrado horizontal */
+    }
+
+/* Navegación principal */
+nav.menu ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+    nav.menu ul li {
+        display: inline;
+        margin: 0 15px; /* Espacio entre elementos */
+    }
+
+    nav.menu ul li a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        font-size: 18px;
+        padding: 10px 15px;
+        border-radius: 5px;
+        transition: background-color 0.3s, color 0.3s; /* Transición al pasar el ratón */
+        font-family: 'Assistant', sans-serif; /* Fuente para los enlaces del menú */
+    }
+
+        nav.menu ul li a:hover {
+            background-color: #333;
+            color: #fff; /* Colores al pasar el ratón */
+        }
+/*Seccion de la cuenta del usuario*/
+#section_perfil{
+    border: 3px solid #FFCCCB;
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 60%;
+    height: 400px;
+}
+    #section_perfil img{
+        height: 390px;
+        width: 100%;
+    }
+/*El resto de secciones*/
+.section{
+    border: 3px solid #FFCCCB;
+    background-color: #ffffff;
+    width: 60%;
+    border-radius: 15px;
+    height: 200px;
+}
+/*Cuadros para que el usuario pueda escribir*/
+input{
+    width: 75%;
+    border-radius: 15px;
+}
+/*BOTONES DE LA PAGINA*/
+button{
+    height: 20px;
+    border-radius: 15px;
+    background-color: #FFCCCB;
+}
+
+        button:hover{
+            background-color: #89CFF1;
+        }
+
+#boton_Sesion{
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #FFCCCB;
+}
+    #boton_Sesion:hover{
+        background-color: #e72a2a;
+    }
+/*Recursos, formatos y colores para repetar la similitud con las demas paginas*/
+h1 {
+    color: #89CFF1;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Anton', sans-serif; /* Usamos Anton para los títulos h1 */
+}
+td{
+    width: 50%;
+}
+
+
+table {
+    width: 100%;
+}
+
+td {
+    vertical-align: top;
+}
+
+h5 {
+    margin: 0;
+    color: #333;
+    font-weight: bold;
+    font-family: 'Assistant', sans-serif; /* Usamos Assistant para los h5 */
+}
+
+p {
+    font-family: 'Assistant', sans-serif; /* Usamos Assistant para los párrafos */
+}
+
+/*FOOTER DE LA PAGINA*/
+footer{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 40px;
+	margin-bottom: 20px;
+    background-color: #FFDDDC;
+}
+
+footer h2{
+	text-align: center;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.cont ul{
+	list-style: none;
+}
+
+.cont ul li{
+	padding-left: 120px;
+}
+
+.cont ul li a{
+	text-decoration: none;
+	font-size: 19px;
+}
+
+.sep{
+	margin-top: 10px;
+	width: 80%;
+	margin-left: 40px;
+	margin-bottom: 40px;
+	border: 1.5px solid black;
+	border-radius: 100%;
+}
+
+.cont a{
+	font-family: 'Assistant', sans-serif;
+	color: #333;
+}

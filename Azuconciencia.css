@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans:wght@600&family=Assistant&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #B8EBFF;
+}
+/* Encabezado */
+header {
+    background-color: #B8EBFF;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #89CFF1; /* Borde inferior */
+}
+
+    header img {
+        max-width: 150px;
+        display: block;
+        margin: 0 auto; /* Centrado horizontal */
+    }
+
+/* Navegación principal */
+nav.menu ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+    nav.menu ul li {
+        display: inline;
+        margin: 0 15px; /* Espacio entre elementos */
+    }
+
+    nav.menu ul li a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        font-size: 18px;
+        padding: 10px 15px;
+        border-radius: 5px;
+        transition: background-color 0.3s, color 0.3s; /* Transición al pasar el ratón */
+        font-family: 'Assistant', sans-serif; /* Fuente para los enlaces del menú */
+    }
+
+        nav.menu ul li a:hover {
+            background-color: #333;
+            color: #fff; /* Colores al pasar el ratón */
+        }
+
+  
+.p1{
+	background-image: url(../imagenes/fotoinicio.jpg);
+	width: 85%;
+	margin: 0 auto;
+	height: 650px;
+}
+
+.p1 h1{
+	text-align: center;
+	font-family: 'Anton', sans-serif; /* Fuente para los títulos h1 */
+	font-size: 70px;
+	padding-top: 30px;
+	backdrop-filter: blur(50px);
+	width: 60%;
+	margin: 0 auto;
+	border-radius: 20px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.p1 p{
+	font-family: 'Nunito Sans', sans-serif;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 150px;
+	background-color: #FFDDDC;
+}
+
+hr{
+	margin-top: 40px;
+	width: 80%;
+	margin-left: 140px;
+	margin-bottom: 40px;
+	border: 1.5px solid black;
+	border-radius: 100%;
+}
+
+.p2{
+	font-family: 'Assistans', sans-serif;
+	width: 85%;
+	height: 200px;
+	margin: 0 auto;
+	border: 1px;
+	box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
+	text-align: center;
+	background-color:  #FFDDDC;
+}
+
+.p2 p{
+	padding-top: 20px;
+}
+
+footer{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	background-color: #FFDDDC;
+}
+
+footer h2{
+	text-align: center;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.cont ul{
+	list-style: none;
+}
+
+.cont ul li{
+	padding-left: 120px;
+}
+
+.cont ul li a{
+	text-decoration: none;
+	font-size: 19px;
+}
+
+.sep{
+	margin-top: 10px;
+	width: 80%;
+	margin-left: 40px;
+	margin-bottom: 40px;
+	border: 1.5px solid black;
+	border-radius: 100%;
+}
+
+.cont a{
+	font-family: 'Assistant', sans-serif;
+	color: #333;
+}
+

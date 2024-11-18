@@ -1,0 +1,161 @@
+/* Estilos para el cuerpo del documento */
+body {
+    background-color: #E5F6FE;
+    font-family: 'Assistant', Arial, sans-serif; /* Fuente predeterminada */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Color de texto principal */
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #B8EBFF;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #89CFF1; /* Borde inferior */
+}
+
+    header img {
+        max-width: 100px; /* Tamaño máximo para la imagen del encabezado */
+    }
+
+/* Estilos para el contenedor del menú de navegación */
+#div_nav {
+    margin-top: 10px; /* Margen superior */
+}
+
+    /* Estilos para el menú de navegación principal */
+    nav.menu ul {
+        list-style-type: none; /* Elimina los puntos de la lista */
+        padding: 0;
+    }
+
+    nav.menu ul li {
+        display: inline; /* Mostrar en línea */
+        margin: 0 15px; /* Espacio entre elementos */
+    }
+
+    nav.menu ul li a {
+        text-decoration: none; /* Sin decoración de texto */
+        color: #333; /* Color de texto */
+        font-weight: bold; /* Negrita */
+        font-size: 18px; /* Tamaño de fuente */
+        padding: 10px 15px; /* Relleno */
+        border-radius: 5px; /* Bordes redondeados */
+        transition: background-color 0.3s, color 0.3s; /* Transiciones suaves */
+    }
+
+        nav.menu ul li a:hover {
+            background-color: #333; /* Fondo al pasar el ratón */
+            color: #fff; /* Texto al pasar el ratón */
+        }
+
+/* Estilos para el título principal */
+h1 {
+    color: #89CFF1; /* Color del título */
+    text-align: center; /* Alineación centrada */
+    font-size: 2.5em; /* Tamaño de fuente */
+    margin-top: 20px; /* Margen superior */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 20px; /* Relleno interior */
+}
+
+section table {
+    width: 100%; /* Ancho completo */
+    border-spacing: 20px; /* Espacio entre celdas */
+}
+
+    section table td {
+        vertical-align: top; /* Alineación superior del contenido */
+        text-align: center; /* Alineación centrada del texto */
+    }
+
+    section table td img {
+        max-width: 100%; /* Imágenes que ocupan todo el ancho */
+        height: auto; /* Altura automática */
+    }
+
+    section table td p {
+        background-color: #FFDDDC; /* Fondo del párrafo */
+        padding: 10px; /* Relleno interior */
+        border-radius: 10px; /* Bordes redondeados */
+    }
+
+/* Estilos para el menú secundario */
+.nav-wrapper {
+    background-color: #FFDDDC; /* Color de fondo */
+    padding: 20px; /* Relleno interior */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    text-align: center; /* Alineación centrada */
+}
+
+    .nav-wrapper #menu_secundario ul {
+        list-style-type: none; /* Elimina los puntos de la lista */
+        padding: 0;
+    }
+
+    .nav-wrapper #menu_secundario ul li {
+        display: inline-block; /* Mostrar en línea con bloque */
+        margin: 10px; /* Margen entre elementos */
+    }
+
+    .nav-wrapper #menu_secundario ul li a {
+        text-decoration: none; /* Sin decoración de texto */
+        color: #333; /* Color de texto */
+        font-weight: 600; /* Peso de la fuente */
+        font-size: 1.2em; /* Tamaño de fuente */
+        padding: 10px 15px; /* Relleno */
+        border-radius: 5px; /* Bordes redondeados */
+        transition: background-color 0.3s, color 0.3s; /* Transiciones suaves */
+    }
+
+        .nav-wrapper #menu_secundario ul li a:hover {
+            background-color: #FFCCCB; /* Fondo al pasar el ratón */
+            color: #fff; /* Texto al pasar el ratón */
+      }   
+
+/* Estilos para el pie de página */
+footer{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 40px;
+	margin-bottom: 20px;
+    background-color: #FFDDDC;
+}
+
+footer h2{
+	text-align: center;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.cont ul{
+	list-style: none;
+}
+
+.cont ul li{
+	padding-left: 120px;
+}
+
+.cont ul li a{
+	text-decoration: none;
+	font-size: 19px;
+}
+
+.sep{
+	margin-top: 10px;
+	width: 80%;
+	margin-left: 40px;
+	margin-bottom: 40px;
+	border: 1.5px solid black;
+	border-radius: 100%;
+}
+
+.cont a{
+	font-family: 'Assistant', sans-serif;
+	color: #333;
+}

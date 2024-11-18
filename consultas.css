@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans:wght@600&family=Assistant&display=swap');
+
+/* Estilos generales */
+body {
+    background-color: #E5F6FE;
+    font-family: 'Assistant', sans-serif; /* Fuente predeterminada para el cuerpo */
+    margin: 0;
+    color: #333; /* Color de texto principal */
+}
+
+/* Encabezado */
+header {
+    background-color: #B8EBFF;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #89CFF1; /* Borde inferior */
+}
+
+    header img {
+        max-width: 150px;
+        display: block;
+        margin: 0 auto; /* Centrado horizontal */
+    }
+
+/* Navegación principal */
+nav.menu ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+    nav.menu ul li {
+        display: inline;
+        margin: 0 15px; /* Espacio entre elementos */
+    }
+
+    nav.menu ul li a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        font-size: 18px;
+        padding: 10px 15px;
+        border-radius: 5px;
+        transition: background-color 0.3s, color 0.3s; /* Transición al pasar el ratón */
+        font-family: 'Assistant', sans-serif; /* Fuente para los enlaces del menú */
+    }
+
+        nav.menu ul li a:hover {
+            background-color: #333;
+            color: #fff; /* Colores al pasar el ratón */
+        }
+
+/* Título principal */
+h1 {
+    color: #89CFF1;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 20px;
+    font-family: 'Anton', sans-serif; /* Fuente para los títulos h1 */
+}
+
+/* Contenedor de navegación secundaria */
+.nav-wrapper {
+    background-color: #FFDDDC;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+    .nav-wrapper nav.menu ul li {
+        display: inline-block;
+        margin: 10px; /* Espaciado entre elementos */
+    }
+
+    .nav-wrapper nav.menu ul li a {
+        background-color: #FFDDDC;
+        color: #333;
+        font-weight: bold;
+        font-size: 1.2em;
+        padding: 10px 15px;
+        border-radius: 5px;
+        transition: background-color 0.3s, color 0.3s; /* Transición al pasar el ratón */
+        font-family: 'Assistant', sans-serif; /* Fuente para los enlaces de nav-wrapper */
+    }
+
+        .nav-wrapper nav.menu ul li a:hover {
+            background-color: #FFCCCB;
+            color: #fff; /* Colores al pasar el ratón */
+        }
+
+/* Contenido principal */
+#main-content {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre elementos */
+}
+
+    /* Estilos para las secciones de información del doctor y reseñas */
+    .doctor-info, .reviews {
+        background-color: #FFDDDC;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    }
+
+        .doctor-info img, .reviews img {
+            max-width: 80px;
+            border-radius: 50%; /* Imágenes redondeadas */
+        }
+
+        .doctor-info h2 {
+            font-size: 1.5em;
+            font-family: 'Nunito Sans', sans-serif; /* Fuente seminegrita para los h2 */
+        }
+
+    .reviews h3 {
+        text-align: center;
+        font-family: 'Assistant', sans-serif; /* Fuente para los h3 de reseñas */
+    }
+
+        .reviews input[type="date"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #B8EBFF;
+            color: #333;
+            font-size: 1em;
+            cursor: pointer;
+            font-family: 'Assistant', sans-serif; /* Fuente para el input de tipo date */
+        }
+
+            .reviews input[type="date"]:hover {
+                background-color: #89CFF1;
+            }
+
+/* Estilos generales para tablas */
+table {
+    width: 100%;
+}
+
+    /* Altura uniforme para filas */
+    tr {
+        height: 60px;
+    }
+
+    /* Alineación superior para celdas */
+    td {
+        vertical-align: top;
+    }
+
+    /* Estilos para subtítulos */
+    h5 {
+        margin: 0;
+        color: #333;
+        font-weight: bold;
+        font-family: 'Assistant', sans-serif; /* Fuente para los h5 */
+    }
+
+    /* Estilos para párrafos */
+    p {
+        margin: 10px 0;
+        font-family: 'Assistant', sans-serif; /* Fuente para los párrafos */
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        background-color: #FFDDDC;
+    }
+    
+    footer h2{
+        text-align: center;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    
+    .cont ul{
+        list-style: none;
+    }
+    
+    .cont ul li{
+        padding-left: 120px;
+    }
+    
+    .cont ul li a{
+        text-decoration: none;
+        font-size: 19px;
+    }
+    
+    .sep{
+        margin-top: 10px;
+        width: 80%;
+        margin-left: 40px;
+        margin-bottom: 40px;
+        border: 1.5px solid black;
+        border-radius: 100%;
+    }
+    
+    .cont a{
+        font-family: 'Assistant', sans-serif;
+        color: #333;
+    }

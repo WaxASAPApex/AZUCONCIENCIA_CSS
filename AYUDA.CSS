@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans:wght@600&family=Assistant&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+    background-color: #B8EBFF;
+}
+/* Encabezado */
+header {
+    
+    background-color: #B8EBFF;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #89CFF1; /* Borde inferior */
+}
+
+h2{
+    font-family: 'Nunito Sans', sans-serif;
+}
+p{
+    font-family: 'Assistant' sans-serif;
+}
+    header img {
+        height:160px;
+        width:70%;
+        margin: 0 auto; /* Centrado horizontal */
+    }
+
+/* Navegación principal */
+nav.menu ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+    nav.menu ul li {
+        display: inline;
+        margin: 0 15px; /* Espacio entre elementos */
+    }
+
+    nav.menu ul li a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        font-size: 18px;
+        padding: 10px 15px;
+        border-radius: 5px;
+        transition: background-color 0.3s, color 0.3s; /* Transición al pasar el ratón */
+        font-family: 'Assistant', sans-serif; /* Fuente para los enlaces del menú */
+    }
+
+        nav.menu ul li a:hover {
+            background-color: #333;
+            color: #fff; /* Colores al pasar el ratón */
+        }
+
+body {
+    font-family: Arial, sans-serif;
+
+}
+
+section {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+hr{
+	margin-top: 40px;
+	width: 50%;
+	margin-left: 340px;
+	margin-bottom: 40px;
+	border: 1.5px solid black;
+	border-radius: 100%;
+}
+
+.tut{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+.vid{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.vid p{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.faq details {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.faq summary {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+    .faq summary-webkit-details-marker {
+    display: none;
+    }
+
+        .faq summary::after {
+        content: ' ▾';
+        font-size: 1.2em;
+        float: right;
+        }
+
+            .faq details[open] summary::after {
+            content: ' ▴';
+            }
+
+.faq p {
+    margin: 10px 0 0 0;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
+
+footer{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 40px;
+	margin-bottom: 20px;
+    background-color: #FFDDDC;
+}
+
+footer h2{
+	text-align: center;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.cont ul{
+	list-style: none;
+}
+
+.cont ul li{
+	padding-left: 120px;
+}
+
+.cont ul li a{
+	text-decoration: none;
+	font-size: 19px;
+}
+
+.sep{
+	margin-top: 10px;
+	width: 80%;
+	margin-left: 40px;
+	margin-bottom: 40px;
+	border: 1.5px solid black;
+	border-radius: 100%;
+}
+
+.cont a{
+	font-family: 'Assistant', sans-serif;
+	color: #333;
+}
